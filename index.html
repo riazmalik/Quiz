@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App - Welcome</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+</head>
+<body class="d-flex align-items-center justify-content-center vh-100">
+  <div class="card p-5 shadow-lg text-center bg-light" id="start">
+    <h1 class="text-primary">🧠 JavaScript Quiz</h1>
+    <p class="lead">Total Questions: <strong>5</strong> | Time: <strong>5 min</strong> | Marks: <strong>100</strong></p>
+    <input type="password" class="form-control my-3" id="serial" placeholder="Enter Serial Key e.g. titans" />
+    <small class="text-muted">Hint: titans</small>
+    <button class="btn btn-success mt-3" onclick="submit()">Start</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
